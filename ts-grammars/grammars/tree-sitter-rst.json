@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/stsewd/tree-sitter-rst",
+  "rev": "d4b6c33ec15a4c22d0003dd37a5b20baa352b843",
+  "date": "2022-06-13T13:46:50-05:00",
+  "path": "/nix/store/0v3h7gmy6lyink4y40nib8kqbx2v61dh-tree-sitter-rst-d4b6c33",
+  "sha256": "023srm0y853235h88sd9czvfmjl4dw9mpqrdh2wbm4d6vj87kqij",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "leaveDotGit": true
+}

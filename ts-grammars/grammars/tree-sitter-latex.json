@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/latex-lsp/tree-sitter-latex",
+  "rev": "c8e55bb7403ab87de58983331df3ec6b115fa318",
+  "date": "2022-06-14T20:24:58+02:00",
+  "path": "/nix/store/2hl3rm1jpx59xqmfxnbxhy4d94w0c4aa-tree-sitter-latex-c8e55bb",
+  "sha256": "1mnl11xs7cici2rnsbzf4slgmfjv9d642fad4xyarwgahgccqx60",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "leaveDotGit": true
+}
