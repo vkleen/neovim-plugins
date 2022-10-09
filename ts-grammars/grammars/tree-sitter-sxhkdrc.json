@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/RaafatTurki/tree-sitter-sxhkdrc",
+  "rev": "440d5f913d9465c9c776a1bd92334d32febcf065",
+  "date": "2022-08-31T05:05:52+03:00",
+  "path": "/nix/store/qi903ihy295nyqnp8nb0vnszpcnwwizh-tree-sitter-sxhkdrc-440d5f9",
+  "sha256": "1l618aas3s51z4r9v2fqdirvbzb10y6w8gfn9hbyz3hx7ry61gpm",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "leaveDotGit": true
+}

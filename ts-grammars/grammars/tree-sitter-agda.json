@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/AusCyberman/tree-sitter-agda",
+  "rev": "80ea622cf952a0059e168e5c92a798b2f1925652",
+  "date": "2021-10-24T15:49:33+11:00",
+  "path": "/nix/store/ip0l9kh6zy81slpm5q81k9621nxcc24v-tree-sitter-agda-80ea622",
+  "sha256": "0imnsdn9rs9hyn2fq05nzjqz5c41di7fnzfsf7ifhk4if7xz5zha",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "leaveDotGit": true
+}

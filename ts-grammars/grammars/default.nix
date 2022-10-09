@@ -1,4 +1,8 @@
 {
+  tree-sitter-agda = (builtins.fromJSON (builtins.readFile ./tree-sitter-agda.json));
+  tree-sitter-meson = (builtins.fromJSON (builtins.readFile ./tree-sitter-meson.json));
+  tree-sitter-qmljs = (builtins.fromJSON (builtins.readFile ./tree-sitter-qmljs.json));
+  tree-sitter-racket = (builtins.fromJSON (builtins.readFile ./tree-sitter-racket.json));
   tree-sitter-scheme = (builtins.fromJSON (builtins.readFile ./tree-sitter-scheme.json));
   tree-sitter-javascript = (builtins.fromJSON (builtins.readFile ./tree-sitter-javascript.json));
   tree-sitter-rego = (builtins.fromJSON (builtins.readFile ./tree-sitter-rego.json));
@@ -10,6 +14,7 @@
   tree-sitter-cuda = (builtins.fromJSON (builtins.readFile ./tree-sitter-cuda.json));
   tree-sitter-d = (builtins.fromJSON (builtins.readFile ./tree-sitter-d.json));
   tree-sitter-glsl = (builtins.fromJSON (builtins.readFile ./tree-sitter-glsl.json));
+  tree-sitter-hlsl = (builtins.fromJSON (builtins.readFile ./tree-sitter-hlsl.json));
   tree-sitter-dockerfile = (builtins.fromJSON (builtins.readFile ./tree-sitter-dockerfile.json));
   tree-sitter-dot = (builtins.fromJSON (builtins.readFile ./tree-sitter-dot.json));
   tree-sitter-rust = (builtins.fromJSON (builtins.readFile ./tree-sitter-rust.json));
@@ -31,6 +36,7 @@
   tree-sitter-html = (builtins.fromJSON (builtins.readFile ./tree-sitter-html.json));
   tree-sitter-julia = (builtins.fromJSON (builtins.readFile ./tree-sitter-julia.json));
   tree-sitter-json = (builtins.fromJSON (builtins.readFile ./tree-sitter-json.json));
+  tree-sitter-jsonnet = (builtins.fromJSON (builtins.readFile ./tree-sitter-jsonnet.json));
   tree-sitter-css = (builtins.fromJSON (builtins.readFile ./tree-sitter-css.json));
   tree-sitter-scss = (builtins.fromJSON (builtins.readFile ./tree-sitter-scss.json));
   tree-sitter-erlang = (builtins.fromJSON (builtins.readFile ./tree-sitter-erlang.json));
@@ -42,6 +48,7 @@
   tree-sitter-ocaml = (builtins.fromJSON (builtins.readFile ./tree-sitter-ocaml.json));
   tree-sitter-ocaml_interface = (builtins.fromJSON (builtins.readFile ./tree-sitter-ocaml_interface.json));
   tree-sitter-ocamllex = (builtins.fromJSON (builtins.readFile ./tree-sitter-ocamllex.json));
+  tree-sitter-menhir = (builtins.fromJSON (builtins.readFile ./tree-sitter-menhir.json));
   tree-sitter-org = (builtins.fromJSON (builtins.readFile ./tree-sitter-org.json));
   tree-sitter-swift = (builtins.fromJSON (builtins.readFile ./tree-sitter-swift.json));
   tree-sitter-c_sharp = (builtins.fromJSON (builtins.readFile ./tree-sitter-c_sharp.json));
@@ -74,6 +81,7 @@
   tree-sitter-jsdoc = (builtins.fromJSON (builtins.readFile ./tree-sitter-jsdoc.json));
   tree-sitter-query = (builtins.fromJSON (builtins.readFile ./tree-sitter-query.json));
   tree-sitter-sparql = (builtins.fromJSON (builtins.readFile ./tree-sitter-sparql.json));
+  tree-sitter-sql = (builtins.fromJSON (builtins.readFile ./tree-sitter-sql.json));
   tree-sitter-gdscript = (builtins.fromJSON (builtins.readFile ./tree-sitter-gdscript.json));
   tree-sitter-godot_resource = (builtins.fromJSON (builtins.readFile ./tree-sitter-godot_resource.json));
   tree-sitter-turtle = (builtins.fromJSON (builtins.readFile ./tree-sitter-turtle.json));
@@ -111,6 +119,11 @@
   tree-sitter-m68k = (builtins.fromJSON (builtins.readFile ./tree-sitter-m68k.json));
   tree-sitter-proto = (builtins.fromJSON (builtins.readFile ./tree-sitter-proto.json));
   tree-sitter-tiger = (builtins.fromJSON (builtins.readFile ./tree-sitter-tiger.json));
+  tree-sitter-sxhkdrc = (builtins.fromJSON (builtins.readFile ./tree-sitter-sxhkdrc.json));
+  tree-sitter-gitignore = (builtins.fromJSON (builtins.readFile ./tree-sitter-gitignore.json));
+  tree-sitter-gitattributes = (builtins.fromJSON (builtins.readFile ./tree-sitter-gitattributes.json));
+  tree-sitter-blueprint = (builtins.fromJSON (builtins.readFile ./tree-sitter-blueprint.json));
+  tree-sitter-twig = (builtins.fromJSON (builtins.readFile ./tree-sitter-twig.json));
   tree-sitter-norg_meta = (builtins.fromJSON (builtins.readFile ./tree-sitter-norg_meta.json));
   tree-sitter-norg_table = (builtins.fromJSON (builtins.readFile ./tree-sitter-norg_table.json));
 }

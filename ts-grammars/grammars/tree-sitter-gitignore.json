@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/shunsambongi/tree-sitter-gitignore",
+  "rev": "f4685bf11ac466dd278449bcfe5fd014e94aa504",
+  "date": "2022-05-04T17:15:26-06:00",
+  "path": "/nix/store/pf6lkgjmp80wcwpq54yrx2qiqpb3gd8z-tree-sitter-gitignore-f4685bf",
+  "sha256": "0n4cn2yg49ynghk74dcqjzwh1sgkblf0dcdhl48jd74f7x14ixg9",
+  "fetchLFS": false,
+  "fetchSubmodules": false,
+  "deepClone": false,
+  "leaveDotGit": true
+}
