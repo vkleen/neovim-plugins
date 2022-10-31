@@ -12,7 +12,7 @@
     vimplugin-nvim-treesitter-context = { url = github:romgrk/nvim-treesitter-context; flake = false; };
     vimplugin-nvim-treesitter = { url = github:nvim-treesitter/nvim-treesitter; flake = false; };
   };
-  outputs = inputs: let 
+  outputs = {self, ...}@inputs: let 
     inherit (inputs.utils.lib)
       filterAttrs
       forAllSystems
@@ -60,6 +60,14 @@
       '';
     });
 
+    update = s: let
+      pkgs = inputs.nixpkgs.legacyPackages.${s};
+    in pkgs.writeShellScript "update" ''
+      set -e
+      nix flake update
+      ${self.packages.${s}.update-grammars}
+    '';
+
     builtGrammars = pkgs: (pkgs.callPackage ./ts-grammars {}).builtGrammars;
     treeSitterGrammars = pkgs: grammarFn:
       let
@@ -84,11 +92,17 @@
 
     packages = forAllSystems (s: {
       update-grammars = update-grammars s;
+      update = update s;
     });
     apps = forAllSystems (s: {
       update-grammars = {
         type = "app";
-        program = "${inputs.self.packages.${s}.update-grammars}";
+        program = "${self.packages.${s}.update-grammars}";
+      };
+
+      update = {
+        type = "app";
+        program = "${self.packages.${s}.update}";
       };
     });
     checks = forAllSystems (s:
