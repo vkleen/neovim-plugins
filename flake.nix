@@ -11,6 +11,8 @@
 
     vimplugin-nvim-treesitter-context = { url = github:romgrk/nvim-treesitter-context; flake = false; };
     vimplugin-nvim-treesitter = { url = github:nvim-treesitter/nvim-treesitter; flake = false; };
+    vimplugin-impatient = { url = github:lewis6991/impatient.nvim; flake = false; };
+    vimplugin-base46 = { url = github:nvchad/base46; flake = false; };
   };
   outputs = {self, ...}@inputs: let 
     inherit (inputs.utils.lib)
